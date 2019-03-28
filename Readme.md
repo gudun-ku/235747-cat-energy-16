@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Александр Белоушкин](https://up.htmlacademy.ru/adaptive/16/user/235747).
-* Наставник: `Неизвестно`.
+- Студент: [Александр Белоушкин](https://up.htmlacademy.ru/adaptive/16/user/235747).
+- Наставник: [Ксения Григорьева](https://htmlacademy.ru/profile/arctic_pie).
 
 ---
 

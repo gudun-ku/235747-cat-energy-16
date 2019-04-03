@@ -6,31 +6,42 @@
   </head>
   <body>
     <header class="page-header">
-      <a class="page-header__logo">
-        <img
-          class="page-header__logo-image"
-          src="img/htmlacademy.svg"
-          width="50"
-          height="50"
-          alt="Кэт энерджи"
-        />
-      </a>
-      <nav class="main-nav">
-        <button class="main-nav__menu-toggle" type="button">Меню</button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__menu site-menu">
-            <li class="site-menu__item site-menu__item--active">
-              <a>Главная</a>
-            </li>
-            <li class="site-menu__item">
-              <a href="catalog.html">Каталог продукции</a>
-            </li>
-            <li class="site-menu__item">
-              <a href="program.html">Подбор программы</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <ul class="page-header__content">
+        <li>
+          <a class="page-header__logo">
+            <img
+              class="page-header__logo-image"
+              src="img/catlogo.svg"
+              width="50"
+              height="50"
+              alt="Кэт энерджи"
+            />
+          </a>
+        </li>
+        <li>
+          <h2 class="page-header__title site-title">
+            Cat Energy
+          </h2>
+        </li>
+        <li>
+          <nav class="main-nav">
+            <button class="main-nav__menu-toggle" type="button">Меню</button>
+            <div class="main-nav__wrapper">
+              <ul class="main-nav__menu site-menu">
+                <li class="site-menu__item site-menu__item--active">
+                  <a>Главная</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="catalog.html">Каталог продукции</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="program.html">Подбор программы</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </li>
+      </ul>
     </header>
 
     <main class="page-main">
@@ -40,7 +51,7 @@
       <p class="page-main__slogan">Занялся собой? Займись котом!</p>
       <section class="nav-links">
         <header class="nav-links__header">
-          <h2 class="visually-hidden">Что делать</h2>
+          <h2 class="visually-hidden section-header">Что делать</h2>
           <a
             class="nav-links__button link_button"
             type="button"
@@ -69,14 +80,149 @@
           </li>
         </ul>
       </section>
-      <section class="main-content">
+      <section class="main-content content">
         <h2 class="content__header section-header">
           Как это работает
         </h2>
+        <ul class="driver__list">
+          <li class="driver__item driver__item--proven">
+            Функциональное питание содержит только полезные питательные
+            вещества.
+          </li>
+          <li class="driver__item driver__item--simple">
+            Выпускается в виде порошка, который нужно лишь залить кипятком и
+            готово.
+          </li>
+          <li class="driver__item driver__item--how">
+            Замените один-два приема обычной еды на наше Функциональное питание.
+          </li>
+          <li class="driver__item driver__item--when">
+            Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
+          </li>
+        </ul>
       </section>
-      <section class="main-addition"></section>
-      <section class="contacts"></section>
-      <footer class="page-footer"></footer>
+      <section class="main-addition">
+        <h2 class="content__header section-header">
+          Живой пример
+        </h2>
+        <p class="content__legend">
+          Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на
+          Cat Energy Slim. Отличный результат без изнуряющих тренировок! При
+          этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
+        </p>
+        <ul class="content__example">
+          <li class="example__item fast-example">
+            <ul class="fast-example__list">
+              <li class="fast-example_item example-result">
+                <p class="example-result__title">
+                  5 кг
+                </p>
+                <small class="example-result__legend">
+                  снижение веса
+                </small>
+              </li>
+              <li class="fast-example_item example-time">
+                <p class="example-result__title">
+                  60 дней
+                </p>
+                <small class="example-result__legend">
+                  затрачено времени
+                </small>
+              </li>
+            </ul>
+          </li>
+          <li class="example__item example-money">
+            <p>Затраты на питание: 15000 руб.</p>
+          </li>
+          <li class="example__item example-slider">
+            <div class="example-slider__image">Фото кота</div>
+            <ul class="example-slider__slider slider-list">
+              <li class="slider-list__btn-back">
+                <p class="slider-btn">Было</p>
+              </li>
+              <li class="slider-list__slider">
+                <p>Индикатор</p>
+              </li>
+              <li class="slider-list__btn-forth">
+                <p class="slider-btn">Стало</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="contacts">
+        <h2 class="visually-hidden contacts__header section-header">
+          Как нас найти
+        </h2>
+        <ul class="contacts__list">
+          <li class="contacts__item contacts-slogan">
+            <p>Приглашаем к сотрудничеству дилеров!</p>
+          </li>
+          <li class="contacts__item contacts-address">
+            <small>ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</small>
+          </li>
+        </ul>
+        <div class="contacts__map">
+          <p>Карта проезда</p>
+        </div>
+      </section>
+      <footer class="page-footer">
+        <div class="page-footer__title">
+          <h3 class="site-title">
+            Cat Energy
+          </h3>
+        </div>
+        <div class="page-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a
+                class="social__link social__link--vk"
+                href="https://vk.com/htmlacademy"
+              >
+                Мы ВКонтакте
+              </a>
+            </li>
+            <li class="social__item">
+              <a
+                class="social__link social__link--fb"
+                href="https://facebook.com/htmlacademy"
+              >
+                Мы В Фейсбуке
+              </a>
+            </li>
+            <li class="social__item">
+              <a
+                class="social__link social__link--instagram"
+                href="https://instagram.com/htmlacademy"
+              >
+                Мы В Инстаграме
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <ul class="copyright__list">
+            <li class="copyright__item copyright__item--text">
+              <a
+                class="button copyright__link"
+                href="https://htmlacademy.ru/intensive/adaptive"
+                >HTML Academy</a
+              >
+            </li>
+            <li class="copyright__item copyright__item--logo">
+              <a class="copyright__logo">
+                <img
+                  class="copyright__logo-image"
+                  src="img/htmlacademy.svg"
+                  width="50"
+                  height="50"
+                  alt="HTML Academy"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </main>
   </body>
 </html>

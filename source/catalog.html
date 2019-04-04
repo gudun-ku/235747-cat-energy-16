@@ -2,7 +2,164 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
-    <title>HTML Academy: Кэт энерджи</title>
+    <title>HTML Academy: Кэт энерджи: Каталог</title>
   </head>
-  <body></body>
+  <body>
+    <header class="page-header">
+      <ul class="page-header__content">
+        <li>
+          <a class="page-header__logo">
+            <img
+              class="page-header__logo-image"
+              src="img/catlogo.svg"
+              width="50"
+              height="50"
+              alt="Кэт энерджи"
+            />
+          </a>
+        </li>
+        <li>
+          <h2 class="page-header__title site-title">
+            Cat Energy
+          </h2>
+        </li>
+        <li>
+          <nav class="main-nav">
+            <button class="main-nav__menu-toggle" type="button">Меню</button>
+            <div class="main-nav__wrapper">
+              <ul class="main-nav__menu site-menu">
+                <li class="site-menu__item">
+                  <a href="index.html">Главная</a>
+                </li>
+                <li class="site-menu__item  site-menu__item--active">
+                  <a>Каталог продукции</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="program.html">Подбор программы</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <h1 class="page-catalog__header page_header">
+        Каталог продукции
+      </h1>
+      <section class="catalog-main">
+        <h2 class="visually-hidden">
+          Товары каталога
+        </h2>
+        <ul class="catalog-main__item-list">
+          <li class="catalog-main__item">
+            <table class="item-details">
+              <thead>
+                <tr>
+                  <td class="item-details__header" colspan="2">
+                    Cat energy pro 500 Г
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="item_details__field">Объем</td>
+                  <td class="item_details__value">500г</td>
+                </tr>
+                <tr>
+                  <td class="item_details__field">Вкус</td>
+                  <td class="item_details__value">Курица</td>
+                </tr>
+                <tr>
+                  <td class="item_details__field">Цена</td>
+                  <td class="item_details__value">700 Р.</td>
+                </tr>
+              </tbody>
+            </table>
+          </li>
+        </ul>
+      </section>
+      <section class="catalog-additional">
+        <h2 class="catalog-additional__title">
+          Дополнительные товары
+        </h2>
+        <ul class="catalog-additional__item-list">
+          <li class="catalog-additional__item"></li>
+        </ul>
+      </section>
+    </main>
+    <footer class="common-footer">
+      <section class="contacts">
+        <h2 class="visually-hidden contacts__header section-header">
+          Как нас найти
+        </h2>
+        <ul class="contacts__list">
+          <li class="contacts__item contacts-slogan">
+            <p>Приглашаем к сотрудничеству дилеров!</p>
+          </li>
+          <li class="contacts__item contacts-address">
+            <small>ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</small>
+          </li>
+        </ul>
+        <div class="contacts__map">
+          <p>Карта проезда</p>
+        </div>
+      </section>
+      <section class="page-footer">
+        <h2 class="page-footer__title site-title">
+          Cat Energy
+        </h2>
+        <div class="page-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a
+                class="social__link social__link--vk"
+                href="https://vk.com/htmlacademy"
+              >
+                Мы ВКонтакте
+              </a>
+            </li>
+            <li class="social__item">
+              <a
+                class="social__link social__link--fb"
+                href="https://facebook.com/htmlacademy"
+              >
+                Мы В Фейсбуке
+              </a>
+            </li>
+            <li class="social__item">
+              <a
+                class="social__link social__link--instagram"
+                href="https://instagram.com/htmlacademy"
+              >
+                Мы В Инстаграме
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <ul class="copyright__list">
+            <li class="copyright__item copyright__item--text">
+              <a
+                class="button copyright__link"
+                href="https://htmlacademy.ru/intensive/adaptive"
+                >HTML Academy</a
+              >
+            </li>
+            <li class="copyright__item copyright__item--logo">
+              <a class="copyright__logo">
+                <img
+                  class="copyright__logo-image"
+                  src="img/htmlacademy.svg"
+                  width="50"
+                  height="50"
+                  alt="HTML Academy"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>

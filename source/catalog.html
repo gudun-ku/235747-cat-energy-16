@@ -337,6 +337,7 @@
       </section>
 
     </main>
+
     <footer class="footer">
       <section class="contacts">
         <h2 class="visually-hidden contacts__header section-header">
@@ -350,15 +351,21 @@
           ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
         </p>
 
-        <div class="contacts__map">
-          <p>Карта проезда</p>
+        <div class="contacts__mapholder">
+          <img  class="contacts__map-image"
+                src="img/map.svg"
+                width="320px"
+                height="360px"
+                alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург"
+          >
         </div>
       </section>
-      <section class="page-footer">
-        <h2 class="page-footer__title site-title">
+
+      <section class="footer__common">
+        <h2 class="footer__title site-title">
           Cat Energy
         </h2>
-        <div class="page-footer__social social">
+        <div class="footer__social social">
           <ul class="social__list">
             <li class="social__item">
               <a
@@ -386,29 +393,24 @@
             </li>
           </ul>
         </div>
-        <div class="page-footer__copyright copyright">
-          <ul class="copyright__list">
-            <li class="copyright__item copyright__item--text">
-              <a
-                class="button copyright__link"
-                href="https://htmlacademy.ru/intensive/adaptive"
-                >HTML Academy</a
-              >
-            </li>
-            <li class="copyright__item copyright__item--logo">
-              <a class="copyright__logo">
-                <img
-                  class="copyright__logo-image"
-                  src="img/htmlacademy.svg"
-                  width="50"
-                  height="50"
-                  alt="HTML Academy"
-                />
-              </a>
-            </li>
-          </ul>
+        <div class="footer__copyright copyright">
+          <a
+            class="copyright__link"
+            href="https://htmlacademy.ru/intensive/adaptive"
+            >HTML Academy</a
+          >
+          <a class="copyright__logo">
+            <img
+              class="copyright__logo-image"
+              src="img/htmlacademy.svg"
+              width="50"
+              height="50"
+              alt="HTML Academy"
+            />
+          </a>
         </div>
       </section>
+
     </footer>
   </body>
 </html>

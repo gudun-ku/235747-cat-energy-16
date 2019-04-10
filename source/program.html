@@ -5,9 +5,7 @@
     <title>HTML Academy: Кэт энерджи</title>
   </head>
   <body>
-
     <header class="header">
-
       <a class="header__logo" href="index.html">
         <img
           class="header__logo-image"
@@ -24,17 +22,19 @@
 
       <nav class="site-nav">
         <button class="site-nav__menu-toggle" type="button">Меню</button>
-          <ul class="site-nav__menu site-menu">
-            <li class="site-menu__item">
-              <a href="index.html">Главная</a>
-            </li>
-            <li class="site-menu__item">
-              <a href="catalog.html">Каталог продукции</a>
-            </li>
-            <li class="site-menu__item site-menu__item--active">
-              <a>Подбор программы</a>
-            </li>
-          </ul>
+        <ul class="site-nav__menu">
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="index.html">Главная</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="catalog.html">Каталог продукции</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link site-nav__link--active"
+              >Подбор программы</a
+            >
+          </li>
+        </ul>
       </nav>
     </header>
 
@@ -249,30 +249,35 @@
       </form>
     </main>
 
-    <footer class="common-footer">
-
+    <footer class="footer">
       <section class="contacts">
         <h2 class="visually-hidden contacts__header section-header">
           Как нас найти
         </h2>
-        <ul class="contacts__list">
-          <li class="contacts__item contacts-slogan">
-            <p>Приглашаем к сотрудничеству дилеров!</p>
-          </li>
-          <li class="contacts__item contacts-address">
-            <small>ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</small>
-          </li>
-        </ul>
-        <div class="contacts__map">
-          <p>Карта проезда</p>
+
+        <p class="contacts__item contacts-slogan">
+          Приглашаем к сотрудничеству дилеров!
+        </p>
+        <p class="contacts__item contacts-address">
+          ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
+        </p>
+
+        <div class="contacts__mapholder">
+          <img
+            class="contacts__map-image"
+            src="img/map.svg"
+            width="320px"
+            height="360px"
+            alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург"
+          />
         </div>
       </section>
 
-      <section class="page-footer">
-        <h2 class="page-footer__title site-title">
+      <section class="footer__common">
+        <h2 class="footer__title site-title">
           Cat Energy
         </h2>
-        <div class="page-footer__social social">
+        <div class="footer__social social">
           <ul class="social__list">
             <li class="social__item">
               <a
@@ -300,30 +305,23 @@
             </li>
           </ul>
         </div>
-        <div class="page-footer__copyright copyright">
-          <ul class="copyright__list">
-            <li class="copyright__item copyright__item--text">
-              <a
-                class="button copyright__link"
-                href="https://htmlacademy.ru/intensive/adaptive"
-                >HTML Academy</a
-              >
-            </li>
-            <li class="copyright__item copyright__item--logo">
-              <a class="copyright__logo">
-                <img
-                  class="copyright__logo-image"
-                  src="img/htmlacademy.svg"
-                  width="50"
-                  height="50"
-                  alt="HTML Academy"
-                />
-              </a>
-            </li>
-          </ul>
+        <div class="footer__copyright copyright">
+          <a
+            class="copyright__link"
+            href="https://htmlacademy.ru/intensive/adaptive"
+            >HTML Academy</a
+          >
+          <a class="copyright__logo">
+            <img
+              class="copyright__logo-image"
+              src="img/htmlacademy.svg"
+              width="50"
+              height="50"
+              alt="HTML Academy"
+            />
+          </a>
         </div>
       </section>
-
     </footer>
   </body>
 </html>
